@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 150px;
+    min-height: 190vh;
+}
+.Container{
+    background-color: aquamarine;
+    max-width: 55%;
+    
+}
+
+.propositionbox{
+    background-color: rgb(223, 133, 16);
+}

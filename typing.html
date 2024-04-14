@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AzerTyping</title>
+    <link rel="stylesheet" href="typing.css">
+</head>
+<body>
+
+    <div class="GranLarge_Container">
+
+        <header>
+            <section>
+                <h1>APPLICATION TYPING</h1>
+            </section>
+            <section>
+                <h2>L'application pour écrire plus vite </h2>
+                <h3>APP_typing est une application en ligne pour apprendre à taper plus vite au clavier :)</h3>
+            </section>
+        </header>
+
+        <main class="Container">
+            <h4>Choisissep votre option et tapez la proposition qui s'affiche dans la champs en-dessous </h4>
+            <div class="optionbox">
+                <input type="radio" value=1 id="words" >
+                <label for="words">Mots</label>
+                <input type="radio" value=2 id="sentences" >
+                <label for="sentences">Phrases</label>
+            </div>
+            <div class="propositionbox">hyui</div>
+            <div class="typingbox">moi</div>
+            <input type="button" value="Valider" id="validate">
+            <div class="scorebox">
+                Votre score : <span class="score"></span><br>
+                <button type="button">Partager</button>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+<script src="./typing_variable.js"></script>
+<script src="./typing_function.js"></script>
+<script src="./typing_main.js"></script>
+</body>
+</html>
